@@ -32,11 +32,11 @@ public class LS980RIL extends LgeLteRIL implements CommandsInterface {
 
     public LS980RIL(Context context, int preferredNetworkType,
             int cdmaSubscription, Integer instanceId) {
-        super(context, preferredNetworkType, cdmaSubscription, instanceId);
+        this(context, preferredNetworkType, cdmaSubscription);
     }
 
     public LS980RIL(Context context, int networkMode, int cdmaSubscription) {
-        this(context, networkMode, cdmaSubscription, null);
+        super(context, networkMode, cdmaSubscription);
     }
 
     @Override
