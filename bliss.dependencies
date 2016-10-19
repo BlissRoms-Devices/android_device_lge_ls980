@@ -46,7 +46,7 @@
     "repository": "android_vendor_nxp-nfc_opensource_frameworks",
     "target_path": "vendor/nxp-nfc/opensource/frameworks",
     "revision": "cm-13.0"
-  }
+  },
   {
     "remote": "cm",
     "repository": "android_vendor_nxp-nfc_opensource_libnfc-nci",
